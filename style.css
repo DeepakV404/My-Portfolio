@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Special+Elite&display=swap');
 
 body{
     margin: 0;
@@ -23,10 +24,11 @@ section{
 h1{
     margin: 10px;
     padding: 50px;
+    padding-bottom: 20px;
     padding-left: 100px;
     text-transform: none;
     font-size: 3em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     text-align: initial;
 }
 
@@ -64,4 +66,18 @@ p{
 .txt-type > .txt {
     border-right: 0.2rem solid #000;
     
+}
+#name{
+    font-family: 'Special Elite', cursive;
+    font-weight: 900;
+    border: 5px solid #000;
+    border-radius: 5px;
+    padding-top: 10px ;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 110px;
+    margin-bottom: 50px;
+    border: #000 5px;
 }
